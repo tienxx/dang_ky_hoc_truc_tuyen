@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Đăng ký học trực tuyến</title>
+</head>
+<body>
+	<form method="post" action="#">
+		<table>
+			<tr>
+				<td>Họ tên:</td>
+				<td><input type="text" name="" id="ht"><br><br></td>
+			</tr>
+
+			<tr>
+				<td>Tên đăng nhập:</td>
+				<td><input type="text" name="" id="tk"><br><br></td>
+			</tr>
+
+			<tr>
+				<td>Điện thoại:</td>
+				<td><input type="text" name="" id="sđt"><br><br></td>
+			</tr>
+
+			<tr>
+				<td>Email:</td>
+				<td><input type="email" name="" id="mail"><br><br></td>
+			</tr>
+
+			<tr>
+				<td>Giới tính:</td>
+				<td>Nam <input type="radio" name="gt" value="Nam"></td>
+				<td>Nữ <input type="radio" name="gt" value="Nữ"></td>
+			</tr>
+
+			<tr>
+				<td>Khóa học đăng ký:</td>
+				<td>
+					<select name="name">
+						<option value="value">Thiết kế đồ họa</option>
+						<option value="value">Lập trình PHP</option>
+						<option value="value">Kỹ thuật làm Phim</option>
+						<option value="value">Lập trình Android</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Khóa học đã tham gia:</td>
+				<td>Lập trình PHP</td>
+				<td><input type="checkbox" name="st" value="lập trình PHP"></td>
+
+				<td>Thiết kế đồ họa</td>
+				<td><input type="checkbox" name="st" value="Thiết kế đồ họa"></td>
+
+				<td>Kỹ thuật làm phim</td>
+				<td><input type="checkbox" name="st" value="Kỹ thuật làm phim"></td>
+
+				<td>Lập trình Android</td>
+				<td><input type="checkbox" name="st" value="lập trình Android"></td>
+			</tr>
+
+			<tr>
+				<td>Ghi chú:</td>
+				<td><textarea></textarea> <br><br></td>
+			</tr>
+
+			<tr>
+				<td>Mã xác nhận:</td>
+
+				<td>
+					<input type="text" id="txtInput"/>
+				
+					<input type="button" id="refresh" value="chọn mã khác" onclick="chonmakhac();">
+				</td>
+			</tr>
+
+			<tr>
+			 	<td><input type="button" value="Đăng ký"  name="" onclick="kiemtra()" ></td>
+			 </tr>
+		</table>
+	</form>
+</body>
+</html>
