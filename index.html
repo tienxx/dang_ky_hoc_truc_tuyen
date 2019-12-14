@@ -79,5 +79,26 @@
 			 </tr>
 		</table>
 	</form>
+
+	<script type="text/javascript">
+        function kiemtra(){
+        	var ten=document.getElementById('ht').value;
+        	console.log(ten);
+        	if(ten=="")
+        		alert("Tên không được bỏ trống")
+        	var taikhoan=document.getElementById('tk').value;
+        	console.log(taikhoan);
+        	if(taikhoan=="")
+        		alert("Tài khoản không được bỏ trống")
+        	var email=document.getElementById('mail').value;
+        	console.log(email);
+        	if(email=="")
+        		alert("Email khẩu không được bỏ trống")
+        	var sđt=document.getElementById('sđt').value;
+        	console.log(sđt);
+        	if(sđt=="")
+        		alert("SĐT không được bỏ trống")
+        }
+	</script>
 </body>
 </html>
